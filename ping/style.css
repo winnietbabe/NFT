@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 50px 50px;
+}
+
+.contanier{
+    
+}
+
+.item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+h1{
+    margin-bottom: 15px;
+    /* font-size: 20px; */
+    color: hsl(0, 0%, 59%);
+    
+}
+
+.item span{
+    color:  hsl(209, 33%, 12%);
+}
+
+.item p{
+    margin-bottom: 30px;
+    /* color: hsl(0, 0%, 59%); */
+}
+
+.item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item1 input{
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.item1 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:  hsl(223, 87%, 63%);  
+    text-align: center;
+    border: none;
+    font-weight: 600px;
+    margin-left: 50px;
+    /* gap: 10px; */
+    color: white;
+    cursor: pointer;
+}
+
+.image img{
+   max-width: 475px;
+   margin: 50px 550px ;
+   /* width: 375px; */
+   /* height: 300px; */
+}
+
+/* .item input{
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+} */
+
